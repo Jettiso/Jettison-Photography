@@ -24,7 +24,8 @@ gsap.from('.anim-flex', {
         scrub: 1
     }
 });
-gsap.from('.grid2', {
+gsap.from('.img-two', {
+    x: 55,
     backgroundPosition: '200px 0',
     duration: 1,
     opacity: 0,
@@ -36,7 +37,8 @@ gsap.from('.grid2', {
         scrub: 1
     }
 });
-gsap.from('.grid3', {
+gsap.from('.img-three', {
+    x: -55,
     duration: 1,
     opacity: 0,
     ease: "power1",
