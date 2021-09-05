@@ -25,7 +25,7 @@ gsap.from('.anim-flex', {
     }
 });
 gsap.from('.grid2', {
-    x: 55,
+    x: -55,
     duration: 1,
     opacity: 0,
     ease: "power1",
