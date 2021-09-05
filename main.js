@@ -85,7 +85,6 @@ gsap.from('.img2', {
     }
 });
 gsap.from('.img3', {
-    x: -50,
     duration: 1,
     opacity: 0,
     ease: "power1",
