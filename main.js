@@ -25,7 +25,7 @@ gsap.from('.anim-flex', {
     }
 });
 gsap.from('.grid2', {
-    x: -55,
+    x: 55,
     duration: 1,
     opacity: 0,
     ease: "power1",
@@ -106,6 +106,7 @@ gsap.from('.img4', {
         start:"top center",
         end: "bottom",
         scrub: 1,
+
     }
 });
 gsap.from('.nxt', {
