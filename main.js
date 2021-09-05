@@ -106,7 +106,6 @@ gsap.from('.img4', {
         start:"top center",
         end: "bottom",
         scrub: 1,
-        markers: true,
     }
 });
 gsap.from('.nxt', {
