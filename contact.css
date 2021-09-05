@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lekton:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #110E0E;
+}
+.container {
+    max-width: 50%;
+    margin: 8rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+h1, h2 {
+    font-family: 'Italiana', sans-serif;
+}
+h1 {
+    font-size: clamp(3rem, 20vw - 2rem, 8rem);
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+h2 {
+    font-size: clamp(3rem, 10vw - 2rem, 4rem);
+    margin-bottom: 4rem;
+    border-bottom: 3px solid white;
+    padding: 5px;
+}
+p {
+    font-size: 1rem;
+    text-transform: capitalize;
+}
