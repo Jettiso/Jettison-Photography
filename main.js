@@ -85,7 +85,7 @@ gsap.from('.img2', {
     }
 });
 gsap.from('.img3', {
-    x: -55,
+    x: -50,
     duration: 1,
     opacity: 0,
     ease: "power1",
@@ -106,7 +106,6 @@ gsap.from('.img4', {
         start:"top center",
         end: "bottom",
         scrub: 1,
-
     }
 });
 gsap.from('.nxt', {

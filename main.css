@@ -21,7 +21,6 @@
 body {
     background: var(--bgc) no-repeat center;
     color: var(--font-color);
-    overflow: hidden;
 }
 main {
     max-width: 90%;
