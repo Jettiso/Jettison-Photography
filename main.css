@@ -51,6 +51,7 @@ nav {
 }
 nav h2 {
     font-family: 'Italiana', serif;
+    font-size: clamp(1rem, 8vw - 2rem, 2rem);
 }
 nav h2 a:hover {
     border-bottom: 2px solid #fefefe;
