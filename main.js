@@ -1,17 +1,6 @@
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.from('.grid1', {
-    y: -55,
-    duration: 1,
-    opacity: 0,
-    ease: "power1",
-    scrollTrigger: {
-        trigger: ".grid1 h1",
-        start:"top ",
-        end: "bottom",
-        scrub: 1
-    }
-});
+
 gsap.from('.anim-flex', {
     y: -55,
     duration: 1,
