@@ -107,18 +107,18 @@ nav h2 a:hover {
     font-family: var(--font);
 }
  /* 2ND GRID IMG */
- .container__grid2 {
-     display: grid;
-     grid-template: repeat(8, 1fr) / repeat(12, 1fr);
-     max-height: 700px;
-     margin-bottom: 7rem;
- }
- .container__grid2 img {
-     grid-column: 1 / span 10;
-     grid-row: 1 / span 7;
- }
+.container__grid2 {
+    display: grid;
+    grid-template: repeat(8, 1fr) / repeat(12, 1fr);
+    max-height: 700px;
+    margin-bottom: 7rem;
+}
+.container__grid2 img {
+    grid-column: 1 / span 10;
+    grid-row: 1 / span 7;
+}
  /* 3RD GRID IMG */
- .container__grid3 {
+.container__grid3 {
     display: grid;
     grid-template: repeat(8, 1fr) / repeat(12, 1fr);
     max-height: 700px;
